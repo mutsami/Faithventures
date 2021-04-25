@@ -9,7 +9,7 @@ import { AuthService } from 'src/app/services/auth.service';
 export class AceComponent implements OnInit {
 
   constructor(public auth:AuthService) { 
-    this.auth.open = "0%"; Didi it?
+    this.auth.open = "0%";
   }
 
   ngOnInit() {
