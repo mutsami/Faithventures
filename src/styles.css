@@ -173,6 +173,13 @@ nav ul li a:hover{
   background-color: var(--light);
   text-align: center;
 }
+.homebanner{
+  background-image: url('/../../../assets/banner.jpg');
+  height: 450px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -189,6 +196,9 @@ nav ul li a:hover{
   .aboutbanner{
     background-size: contain !important;
     height: 250px!important; 
+  }
+  .homebanner{
+    height: 750px;
   }
 }
 .history{
